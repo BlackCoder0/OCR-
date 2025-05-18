@@ -42,7 +42,7 @@ sudo apt-get install python3-tk
 │   └── ...               
 ├── MNIST/                 # 可选：本地 MNIST 数据集（第一次运行main.py后生成）
 │   └── ...                
-├── mnist_cnn_model.h5     # ✅ 已训练好的 CNN 模型（第一次运行main.py后生成）
+├── mnist_cnn_model.h5     # 可选：已训练好的 CNN 模型（第一次运行main.py后生成）
 ├── main.py                # 主程序文件（含模型训练 + GUI 界面）
 ```
 
