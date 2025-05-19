@@ -25,16 +25,19 @@ C2动漫社专用（骗你的，不是也能用）
 ```bash
 pip install tensorflow
 pip install pillow
+pip install numpy
 ```
 如果你不便使用VPN，请使用阿里云镜像
 ```bash
 pip install tensorflow -i https://mirrors.aliyun.com/pypi/simple/
 pip install pillow -i https://mirrors.aliyun.com/pypi/simple/
+pip install numpy -i https://mirrors.aliyun.com/pypi/simple/
  ```
 或者清华大学镜像
 ```bash
 pip install tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install numpy -i https://mirrors.aliyun.com/pypi/simple/
 ```
 <br>
 对于 Windows 或 macOS，通常在安装 Python 时会自动包含 Tkinter。
@@ -55,9 +58,10 @@ pip install pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ### 📂 `data/` 文件夹
 
-图片库，存放手写的数字图像，供测试用。格式应为 `.png` 或 `.jpg`，建议：
+图片库，存放手写的数字图像方便寻找。格式应为 `.png` 或 `.jpg`，建议：
 
 * 图像清晰
+* 图片应该为黑底白字或者白底黑字
 * 单个数字居中
 
 
@@ -127,5 +131,5 @@ Output: Probability of digits 0~9
 
 * 上传图像应尽量清晰、单个数字居中。
 * 支持任意图片尺寸，程序会自动适配。
-* 如果图片背景是黑的字是白的，程序会自动反转颜色！
+* 上传图片应该为黑底白字或者白底黑字
 * 训练时间大概在十分钟以内
