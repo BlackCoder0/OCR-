@@ -23,7 +23,7 @@ C2动漫社专用（骗你的，不是也能用）
 在运行此项目之前，请确保你已经安装了以下依赖：
 
 ```bash
-pip install tensorflow pillow numpy
+pip install tensorflow
 ````
 
 如果你使用的是 Linux 系统：
