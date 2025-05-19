@@ -73,11 +73,23 @@ sudo apt-get install python3-tk
 
    ```bash
    python main.py
+   pip install pillow
    ```
+   如果你不便使用VPN，请使用阿里云镜像
+   ```bash
+   python main.py -i https://mirrors.aliyun.com/pypi/simple/
+   pip install pillow -i https://mirrors.aliyun.com/pypi/simple/
+   ```
+   或者清华大学镜像
+   ```bash
+   python main.py -i https://pypi.tuna.tsinghua.edu.cn/simple
+   pip install pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
+   ```
+   <br>
+   对于 Windows 或 macOS，通常在安装 Python 时会自动包含 Tkinter。
+3. GUI 界面将会弹出，点击 **“上传图像”** 按钮，选择你写的数字图片。
 
-2. GUI 界面将会弹出，点击 **“上传图像”** 按钮，选择你写的数字图片。
-
-3. 模型将识别图片中的数字并显示预测结果。
+4. 模型将识别图片中的数字并显示预测结果。
 
 ---
 
