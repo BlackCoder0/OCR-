@@ -20,7 +20,7 @@ C2动漫社专用（骗你的，不是也能用）
 
 ## 📦 依赖安装
 
-在运行此项目之前，请确保你已经安装了以下依赖：
+在运行此项目之前，请确保你已经安装了以下依赖（一行行，不要一口气粘贴）：
 
 ```bash
 pip install tensorflow
@@ -33,7 +33,7 @@ pip install tensorflow -i https://mirrors.aliyun.com/pypi/simple/
 pip install pillow -i https://mirrors.aliyun.com/pypi/simple/
 pip install numpy -i https://mirrors.aliyun.com/pypi/simple/
  ```
-或者清华大学镜像
+或者也可以用清华大学镜像
 ```bash
 pip install tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
